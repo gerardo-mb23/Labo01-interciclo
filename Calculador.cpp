@@ -3,15 +3,19 @@
 using namespace std;
 
 float sumar(float a, float b);
+float restar(float a, float b);
 
+int main()
+{
 
-int main() {
-
-
-    
     return 0;
 }
 
-float sumar(float a, float b) {
-    return a + b ;
+float sumar(float a, float b)
+{
+    return a + b;
+}
+float restar(float a, float b)
+{
+    return a - b;
 }
