@@ -29,7 +29,7 @@ float dividir(float a, float b)
 {
     if (b == 0)
     {
-        cout << "Error. No se puede dividir entre 0" << endl;
+        cout << "Error. No se puede dividir entre 0." << endl;
         return 0;
     }
     return a / b;
